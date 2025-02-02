@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Lesson 1: Hello World!",
+    "content": "Learn how to write your first Python program.",
+    "instructions": "Write a Python program to print 'Hello, World!'."
+  },
+  {
+    "id": 2,
+    "title": "Lesson 2: Variables and Data Types",
+    "content": "Learn about variables and data types in Python.",
+    "instructions": "Create variables to store your name, age, and favorite color."
+  },
+  {
+    "id": 3,
+    "title": "Lesson 3: Loops and Conditionals",
+    "content": "Learn how to use loops and conditionals in Python.",
+    "instructions": "Write a Python program to print numbers from 1 to 10 using a loop."
+  }
+]
