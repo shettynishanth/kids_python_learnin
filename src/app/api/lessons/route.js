@@ -1,5 +1,3 @@
-import db from '@/database/db';
-
 export async function POST(request) {
   try {
     const { userId, character } = await request.json(); // Get userId and character from the request body
