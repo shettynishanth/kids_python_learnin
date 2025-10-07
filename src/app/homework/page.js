@@ -25,6 +25,12 @@ export default function Homework() {
       instructions: `Write a Python function to calculate the factorial of a number.`,
       emoji: '🎉',
     },
+    {
+      id:3,
+      title:'dived of two number',
+      instructions: `Write a Python function that takes two numbers as input and returns their sum.`,
+      emoji:'*',
+    }
   ];
 
   const evaluateCode = async (code) => {
@@ -158,4 +164,5 @@ export default function Homework() {
       </div>
     </div>
   );
+
 }
