@@ -47,7 +47,7 @@ export default function Chatbot() {
       const aiResponse = await handleSend(input);
       setMessages((prev) => [...prev, { text: aiResponse, sender: 'ai', character: selectedCharacter }]);
     } finally {
-      setIsLoading(false);
+      setIsLoading(true);
     }
   };
 
@@ -116,4 +116,5 @@ export default function Chatbot() {
       </AnimatePresence>
     </>
   );
+
 }
